@@ -11,7 +11,7 @@ from pyrogram import filters
 
 
 
-@app.on_message(filters.command("rem") & filters.user(OWNER_ID))
+@app.on_message(filters.command("rem"))
 async def remove_premium(client, message):
     if len(message.command) == 2:
         user_id = int(message.command[1])  
@@ -58,7 +58,7 @@ async def myplan(client, message):
         
 
 
-@app.on_message(filters.command("check") & filters.user(OWNER_ID))
+@app.on_message(filters.command("check"))
 async def get_premium(client, message):
     if len(message.command) == 2:
         user_id = int(message.command[1])
@@ -86,7 +86,7 @@ async def get_premium(client, message):
         await message.reply_text("ᴜꜱᴀɢᴇ : /check user_id")
 
 
-@app.on_message(filters.command("add") & filters.user(OWNER_ID))
+@app.on_message(filters.command("add"))
 async def give_premium_cmd_handler(client, message):
     if len(message.command) == 4:
         time_zone = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
