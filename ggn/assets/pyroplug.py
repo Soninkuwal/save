@@ -112,7 +112,7 @@ async def send_video_with_chat_id(client, sender, path, caption, duration, hi, w
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading: [Team SPY](https://t.me/devggn)__**\n ',
+                '**__Uploading: [Team sonic kuwal updated](https://t.me/Sonickuwalupdate)__**\n ',
                 upm,
                 time.time()
             )
@@ -146,7 +146,7 @@ async def send_document_with_chat_id(client, sender, path, caption, thumb_path, 
             progress=progress_for_pyrogram,
             progress_args=(
                 client,
-                '**__Uploading:__**\n**__Bot made by [Team SPY](https://t.me/devggn)__**',
+                '**__Uploading:__**\n**__Bot made by  [Team sonic kuwal updated](https://t.me/Sonickuwalupdate)__**',
                 upm,
                 time.time()
             )
@@ -478,7 +478,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
             await upm.delete()
             return None
         except (ChannelBanned, ChannelInvalid, ChannelPrivate, ChatIdInvalid, ChatInvalid):
-            await client.edit_message_text(sender, edit_id, "Bot is not in that channel/group \nsend the invite or add session vioa command /addsession link so that bot can join the channel\n\nTo generate session you can use our official bot - @stringsessionAK47bot")
+            await client.edit_message_text(sender, edit_id, "Bot is not in that channel/group \nsend the invite or add session vioa command /addsession link so that bot can join the channel\n\nTo generate session you can use our official bot - @KanhaContentbot")
             return None
     else:
         edit = await client.edit_message_text(sender, edit_id, "Cloning.")
