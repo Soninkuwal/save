@@ -109,7 +109,7 @@ async def get_registered_users_command(event):
 
 S = "/start"
 START_PIC = "https://graph.org/file/401bcfd8497b24ebbaff4-c63e7e01a957dcf0b3.jpg"
-TEXT = "Hey! I am Advance Content Saver Bot, do login in bot by /login and start saving from public/private channels/groups via sending post link.\n\n👉🏻 Execute /batch for bulk process upto 1K files range."
+TEXT = "Hey! I am Advance Content Saver Bot, do login in bot by /login and start saving from public/private channels/groups via sending post link.\n\n👉🏻 Execute /batch for bulk process upto 10Lakh files range."
 
 
 M = "/plan"
